@@ -1,0 +1,33 @@
+        li
+        {
+            width:50%;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .form-container
+        {
+            margin-top:1em;
+        }
+        .tab-pane
+        {                       
+            padding: 20px;
+        }
+
+        .tab-content
+        {
+            border-right: 1px solid #bdbdbd;
+            border-left: 1px solid #bdbdbd;
+            border-bottom: 1px solid #bdbdbd;
+        }
+        .left 
+        {           
+            border-left: 1px solid #bdbdbd;
+            border-top: 1px solid #bdbdbd;                  
+        }
+        .right 
+        {
+            border-right: 1px solid #bdbdbd;            
+            border-top: 1px solid #bdbdbd;                  
+        }
+    

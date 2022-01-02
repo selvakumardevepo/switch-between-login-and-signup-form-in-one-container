@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dynamic tabs</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script src="jquery.min.js"></script>
+  	<script src="bootstrap.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <h2>Login and registration form</h2>
+  <p>Welcome to all...</p>
+<div class="container cont col-lg-4 col-lg-offset-4">
+  <ul class="nav nav-tabs">
+    <li class="active left"><a data-toggle="tab" href="#home">LOGIN</a></li>
+    <li class="right"><a data-toggle="tab" href="#1">REGISTER</a></li>    
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <form>
+      	<div class="form-container">
+      		<label class="form-label">Name</label>
+      		<input type="text" name="" class="form-control" placeholder="Enter your Name">
+      	</div>
+      	<div class="form-container">
+      		<label class="form-label">Email id</label>
+      		<input type="email" name="" class="form-control" placeholder="Enter your Email-id">
+      	</div>
+      	<div class="form-container">
+      		<label class="form-label">Password</label>
+      		<input type="password" name="" class="form-control" placeholder="Enter your Password">
+      	</div> 
+      	<div class="form-container">
+      		<button class="btn btn-primary btn-block">Submit</button>
+      	</div>       	     	      	
+      </form>
+    </div>
+    <div id="1" class="tab-pane fade">
+      <form>
+      	<div class="form-container">
+      		<label class="form-label">Name</label>
+      		<input type="text" name="" class="form-control" placeholder="Enter your Name">
+      	</div>
+      	<div class="form-container">
+      		<label class="form-label">Email id</label>
+      		<input type="email" name="" class="form-control" placeholder="Enter your Email-id">
+      	</div>
+      	<div class="form-container">
+      		<label class="form-label">Password</label>
+      		<input type="password" name="" class="form-control" placeholder="Enter your Password">
+      	</div> 
+      	<div class="form-container">
+      		<label class="form-label">Retype-Password</label>
+      		<input type="password" name="" class="form-control" placeholder="Enter your Password">
+      	</div> 
+      	<div class="form-container">
+      		<button class="btn btn-primary btn-block">Submit</button>
+      	</div>       	     	      	
+      </form>
+    </div>    
+</div>
+</div>
+</body>
+</html>
